@@ -1,17 +1,18 @@
-body,
-html, *{
-    font-size: 20px;
+html,
+body {
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+    border: 3px solid;
+}
+
+#form {
+    border: 3px ridge;
 }
 
 .gallery {
-        margin-top: 5vh;
-        margin-bottom: 1vh;
-        width: 80%;
-        padding-top: 2vh;
-        border-radius: 5vh;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
-        align-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
