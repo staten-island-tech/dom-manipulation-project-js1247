@@ -37,3 +37,19 @@
 //     console.log(total);
 // }
 // spaces(7, "ccccccc", "c.c.c.c");
+
+
+function fibonacci(num){
+    let firstNum = 0;
+    let nextNum = 1;
+    for(let i = 0; i <= num; i++) {
+        const next = firstNum + nextNum;
+        firstNum = nextNum;
+        
+    }
+}
+console.log(n1);
+nextTerm = n1 + n2;
+n1 = n2;
+n2 = nextTerm;
+}
